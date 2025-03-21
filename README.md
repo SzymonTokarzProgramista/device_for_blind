@@ -1,2 +1,6 @@
 # device_for_blind
-This is a software for device that scans a block of text (for exapmle a page from a book) and makes an audio file based on recognised text. Device uses Raspberry Pi 4B as the main platform. There are 2 machine laerning models programmed into the devices, the first is a convolutional neural network and the second one is based on ResNet50 netwrok and by using method called "Transfer Learning" was modified to detect letters.
+This device is designed to assist visually impaired individuals by recognizing printed characters and converting them into accessible formats (e.g., audio feedback). The system uses a camera to capture text in the environment, then processes the image using two machine learning models for character recognition.
+
+The first model is a custom Convolutional Neural Network (CNN) trained from scratch for basic character classification. The second model leverages ResNet50 with transfer learning, allowing for more accurate and robust recognition, especially in more complex or noisy environments.
+
+By combining these two models, the device ensures both speed and high accuracy in real-time character detection. It is intended to support independence for visually impaired users by helping them interpret written information in their daily lives.
