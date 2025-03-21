@@ -1,2 +1,2 @@
 # device_for_blind
- 
+This is a software for device that scans a block of text (for exapmle a page from a book) and makes an audio file based on recognised text. Device uses Raspberry Pi 4B as the main platform. There are 2 machine laerning models programmed into the devices, the first is a convolutional neural network and the second one is based on ResNet50 netwrok and by using method called "Transfer Learning" was modified to detect letters.
